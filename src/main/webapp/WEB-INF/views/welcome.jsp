@@ -138,13 +138,13 @@
                     </span>
                     <br><br>
                     <i class="fa fa-tags" aria-hidden="true"></i> <a href="#" class="tag">#DevOps</a> <a href="#" class="tag"> #Continuous Integration</a> <a href="#" class="tag"> #Continuous Delivery </a><a href="#" class="tag"> #Automation</a>
-                     <c:if test="${pageContext.request.userPrincipal.name =='admin_vp'}">
+                     <c:if test="${pageContext.request.userPrincipal.name =='admin'}">
 					     <a href="${contextPath}/users" class="btn btn-success" >All Users</a>
 					 </c:if>
-					  <c:if test="${pageContext.request.userPrincipal.name =='admin_vp'}">
+					  <c:if test="${pageContext.request.userPrincipal.name =='admin'}">
 					     <a href="${contextPath}/user/rabbit" class="btn btn-success" >RabbitMq</a>
 					 </c:if>
-					 <c:if test="${pageContext.request.userPrincipal.name =='admin_vp'}">
+					 <c:if test="${pageContext.request.userPrincipal.name =='admin'}">
 					     <a href="${contextPath}/user/elasticsearch" class="btn btn-success" >Elasticsearch</a>
 					 </c:if>
                     <br><br><hr>
